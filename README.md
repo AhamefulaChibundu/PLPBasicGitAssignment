@@ -3,6 +3,7 @@
 ### How to create a repo and link it to your local computer
 
 These are the steps i followed to create a repo and initialize it:
+
     1. Logged in to my GitHub account, created a repository and added a README file while creating the repo. I named the repo "PLPBasicGitAssignment"
 
     2. I Created a new folder on your local machine and named it "PlpBasicGit" and then i opened my gitbash and navigated to the newly created folder.
@@ -17,4 +18,4 @@ These are the steps i followed to create a repo and initialize it:
 
     7. The last step is to push the changes to Github using the command "git push -u origin main". I tried this command but i was having the error "error: failed to push some refs to 'https://github.com/AhamefulaChibundu/PLPBasicGitAssignment.git'
 
-    This error kept occouring because I added a README file while creating the repo and my local machine was not aware of that initial commit. To resolve this error, I used the command "git pull --rebase origin main". this command pulled the README file to my local machine, then I used the "git push -u origin main" command and the changes were pushed to Github.
+    This error kept occoring because I added a README file while creating the repo and my local machine was not aware of that initial commit. To resolve this error, I used the command "git pull --rebase origin main". this command pulled the README file to my local machine, then I used the "git push -u origin main" command and the changes were pushed to Github.
