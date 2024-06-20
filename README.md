@@ -22,5 +22,4 @@ These are the steps i followed to create a repo and initialize it:
     hint: 'git pull' before pushing again.
     hint: See the 'Note about fast-forwards' in 'git push --help' for details."
 
-
     This error kept occouring because I added a README file while creating the repo and my local machine was not aware of that initial commit. To resolve this error, I used the command "git pull --rebase origin main". this command pulled the README file to my local machine, then I used the "git push -u origin main" command and the changes were pushed to Github.
